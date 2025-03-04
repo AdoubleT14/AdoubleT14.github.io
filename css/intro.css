@@ -1,0 +1,175 @@
+/* Global Styles */
+body {
+    font-family: 'Sarabun', sans-serif;
+    background-color: #fffbf4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #27bbf1;
+    border-bottom: 3px solid #c88ed6;
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white !important;
+    letter-spacing: 1px;
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: white !important;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #2A505A !important;
+    background-color: transparent !important;
+}
+.navbar-toggler-icon {
+    background-color: #2cbbf0;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+/* For active link highlighting */
+.navbar-nav .nav-item.active .nav-link {
+    color: #2A505A !important;
+    font-weight: bold;
+}
+.navbar {
+    border: none !important; /* เอากรอบออก */
+    box-shadow: none !important; /* เอาเงาออก */
+}
+.download-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* เอากรอบออกจาก container */
+.container {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* เอาสีดำออกจากปุ่ม hamburger */
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('/images/Banner.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+} 
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffffff; /* เปลี่ยนสีเป็นสีทอง */
+    font-family: 'Kanit', sans-serif;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #ffffff; /* สีฟ้า */
+    font-family: 'Sarabun', sans-serif;
+}
+
+.hero .btn-light {
+    background-color: #4dc251;
+    border-color: #4dc251;
+    color: #ffffff;
+}
+
+.hero .btn-light:hover {
+    background-color: #1d6671;
+    border-color: #ffffff;
+}
+
+/* Card Styling */
+.card {
+    background-color: #f4f3f3;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #699feb;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Button Outline */
+.btn-outline-primary {
+    border-color: #5e5e5e;
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6f42c1;
+    color: white;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #372fd0;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
